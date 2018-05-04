@@ -7,3 +7,6 @@ View File: index.html
 Controller: D3ChartController in app.js
 
 Service to draw the graphs: D3Service
+
+
+To execute, clone the project and run index.html.
