@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularD3App">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AngularJs | D3.JS</title>
+	
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/d3chart.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body ng-cloak>
+    <div >
+      <div ng-controller="D3ChartController">
+        <div class="container-fluid" >
+          <div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+            <h2 class="text-center text-success" style="margin-bottom : 0px;">
+              Real Time Charts<br> <br>
+            </h2>
+            
+              <!-- <h2 class="text-success">Sales</h2> -->
+			  </div>
+            <div class="col-sm-3">  
+			</div>
+            </div>
+          </div>
+          <div class="row">
+			<div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <div id="pieChart" style="position:inherit;!important"></div>
+              </div>
+            </div>
+			<div class="col-sm-3"></div>
+          </div>
+		<div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <div id="barChart" style="position:inherit;!important"></div>
+              </div>
+			</div>
+			<div class="col-sm-3"></div>  
+            
+          </div>
+	
+		  
+		<div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <div id="lineChart" style="position:inherit;!important"></div>
+              </div>
+            </div>
+			<div class="col-sm-3"></div>  
+            
+          </div>
+		
+      </div>
+    </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- JQuery js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- BootStrap Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- D3Js -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <!-- JS Libraries for Angulat.UI and Angular-Main-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.min.js"></script>    
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script src='sales.js'></script>
+	<script src='services/d3service.js'></script>
+    <!-- App Js script -->
+    <script src="app.js"></script>
+  </body>
+</html>
